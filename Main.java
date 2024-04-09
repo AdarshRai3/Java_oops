@@ -84,7 +84,7 @@ public class Main {
         System.out.println(random.name);
         Student random2  = new Student();
 
-        System.out.println(random2);
+        System.out.println(random2.name);
         Student one = new Student();
         Student two = one;
         
