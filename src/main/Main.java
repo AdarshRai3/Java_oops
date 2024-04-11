@@ -1,6 +1,5 @@
-import java.util.*;
-import java.io.*;
-
+package src.main;
+import static src.helper.Helper.hello;
 public class Main {
     public static void main(String[] args) {
         // Your code here
@@ -114,8 +113,31 @@ public class Main {
         //grabage collection:In java collection is automatic , unlike c++ where we have to use destructors to free the memory but in java we can use finalize() method to define the activities after garbage collection means we cannot destroy object but we can  decide what to do after the object is destroyed.
          
      
-         
+         //Packages
+        //  In java packages are used to group classes together , you can understand package as folder with good naming convention that help us to access the functionality across multiple different folder among multiple different classes easily 
+        //by using package name convention we can access the classes' functionality using "import statement" in java
         
+        hello(); //this hello function is defined in the package helper folder and it can be accessed from the main folder
+       
+        Human Adarsh = new Human(25,"Adarsh",5.10f,1000000000);
+        Human Sagar = new Human(0, "Sagar", 6.2f, 0);
+
+        System.out.println(Adarsh.income);
+        System.out.println(Sagar.income);
+        //Notice that since Human.java and Main.java are in same folder we dont need import statement 
+        
+        //staic keyword
+        // static keyword in java can be used to when we used to define the property of the class that don't change with the object and it should always be called by classname.static_variable_name
+        //staic variable can be accessed without creating or referring to the object of that class
+        // public static void main (String[] args) {} in this we have to put main method as static because we can use staic method without creating an object of the class
+        // A staic method() can only access static variables or method
+        // A non-static data: methods() and variable cannot be access without creating or referring to an object, static method() cannot use it because it requires an instance.
+        // there is solution to this problem , it is to creacte the object and then call the non-static method viva staic method inside that object
+        
+         
+        System.out.println(Human.gravity);
+     
+
     } 
    
 
