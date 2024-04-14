@@ -14,4 +14,6 @@ public class Human {
         this.income = income;
         Human.gravity = 9.81f;
     }
+
+  
 }
