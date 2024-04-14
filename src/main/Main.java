@@ -2,6 +2,7 @@ package src.main;
 import static src.helper.Helper.hello;
 
 import src.main.Singleton.Singleton;
+
 public class Main {
     public static void main(String[] args) {
         // Your code here
@@ -146,8 +147,16 @@ public class Main {
    //. operator is used to binds the instance method and instance variable with the refernce class
      Singleton S1 = Singleton.getInstance();
      Singleton S2 = Singleton.getInstance();
+     Singleton S3 = Singleton.getInstance();
     // we can create refence variable using the instance of the singleton class and all of them are pointing the same instance variable that have beeen created in the singleton class.
     //instead of creating new onject the singleton class will create only one object and passed it as reference to the many refence variable.
+    //All the 3 referene variable will point to the same object
+
+
+    //Now we will learn about the four most important properties of object oriented programming :
+    //Inheritance, Encapsulation, Abstraction, and Polymorphism
+    //read properties folder
+
     
 }
 
