@@ -27,5 +27,9 @@ public class Main {
         BoxColor box7 = new BoxColor(3.00,5.00,7.00,100,"red");
         System.out.println(box7.height+" "+box7.length+" "+box7.width+" "+box7.weight+" "+box7.color);
        // Both BoxColor and Boxprice are inherited from BoxWeight hence this is example of heirachical inheritance
-    }
+       Box.greeting();
+       //Since greeting is the static method in the box class we can use it without creating the refernce variable of the box class that means to use greeting we dont need to write Box box 8 = new Box();box8.greeting(); we can use it directly.
+       BoxWeight.greeting();
+       //we can inherit static methods like greeting from the box class but we cannot override it since for overriding the method we require refernce variable and object variable and both are not need for static method.
+    } 
 }

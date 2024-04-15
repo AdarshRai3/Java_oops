@@ -160,7 +160,27 @@ public class Main {
     // Heiricahal inheritance One parent class have may children classes
     //Hybrid Inheritance is the combination of multiple and single inheritance but as we know that java dont support multiple inheritance so we dont have Hybrid inheritance in java.
 
-    //Polymorhism: 
+    //Polymorhism:Use the one thing in many forms 
+    // there are two types of polymorphism 
+    // Compile time Polymorphism (Method overloading)
+    // Run time polymorphism (Method Overriding)
+    //read properties folder
+
+    //Encapsulation 
+    //Wapping up the implementation of the data members and methods() of the class in a class
+    //Enscapsulation is sovling implementation issue
+    //Encapsulation focuses on the internal working 
+    //Enscapuslation is the process of containing the information
+    //Enscapulation is implemented using access modifiers:private, public,protected and be accessed using getter and setter function
+    //Data Hiding focuses on data security whereas Encapsulation focuses on wapping the data to hide the complexity of the System.
+    //Enscapsulation is the sub process in data hiding.
+
+    //Abstraction
+    //Hiding the unecessary details and showing only the essential details.
+    //Abstraction is solving design issue
+    //Abstraction focuses on the external 
+    //Achived using abstract classes and interfaces
+    //Abstraction is the process of gaining the information
 
 
     

@@ -20,7 +20,7 @@ public  class BoxWeight extends Box{
     super(sides);
     this.weight=weight;
    }
-   
+    
    public BoxWeight(Box other){
     this.height = other.height;
     this.length = other.length;

@@ -11,6 +11,12 @@ public class Box{
         this.width=-1.00;
         this.length=-1.00;
     }
+    //create a static method 
+    //static method are the method that we can use directly without creating the refernce variable.
+    // we can inherit static method but we cannot override static method.
+    static void greeting(){
+        System.out.println("Hey, look I am in the Box class.Greetings");
+    }
 
     Box(double side){
         this.width=side;
