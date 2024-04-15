@@ -156,6 +156,12 @@ public class Main {
     //Now we will learn about the four most important properties of object oriented programming :
     //Inheritance, Encapsulation, Abstraction, and Polymorphism
     //read properties folder
+    //Java doesnt support multiple inheritance since it creates ambugity in the program suppose if A(n==3) and B(n==5) then if C extends A,B and we create object (C obj = new C(n) )this will give us ambugity that from which class C inherit the n , therefore java dont support multiple inheritance.
+    // Heiricahal inheritance One parent class have may children classes
+    //Hybrid Inheritance is the combination of multiple and single inheritance but as we know that java dont support multiple inheritance so we dont have Hybrid inheritance in java.
+
+    //Polymorhism: 
+
 
     
 }

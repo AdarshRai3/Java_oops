@@ -1,4 +1,4 @@
-package src.main.properties;
+package src.main.properties.Inheritence;
 
 public class Main {
     public static void main(String[]args){
@@ -21,6 +21,11 @@ public class Main {
         //every class that we create refers to the object class hence we can use super() in every class
         //Importance point => What we can inherit depends on the type of referene variable not the object type.
         //"reference variable = new object types"
+        Boxprice box6 = new Boxprice(3.00,5.00,7.00);
+        System.out.println(box6.height+" "+box6.length+" "+box6.width+" "+box6.weight+" "+box6.cost);
+
+        BoxColor box7 = new BoxColor(3.00,5.00,7.00,100,"red");
+        System.out.println(box7.height+" "+box7.length+" "+box7.width+" "+box7.weight+" "+box7.color);
+       // Both BoxColor and Boxprice are inherited from BoxWeight hence this is example of heirachical inheritance
     }
-    
 }
