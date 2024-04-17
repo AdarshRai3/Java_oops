@@ -1,5 +1,5 @@
 package src.main.properties.Interface;
 
-public interface B extends A {
+public interface B {
     void fun();
 }
