@@ -30,6 +30,7 @@ public class Main implements B{
         car.stop();
 
         //here we can see without creating an object we are able to access the methods just by using seperate classes in same Interface.
+       //This problem is solved that we create seprate classes CDPlayer implements MusicPlayer and override start() and stop() methods and then we can create object of this CD Player class and with reference variable of the interface MediaPlayer we can use start() and stop() methods and overide them using the CDPLayer class like : MediaPlayer player = new CDPlayer(); player.start(); player.stop();this is excat same solution we used for the Engine Interface.
     }
 }
 //Interface 
@@ -50,3 +51,7 @@ public class Main implements B{
 //we can use extend one interface A to another interface B to use the method of interface A in interface B and can implement B in the main class  
 
 //seperate classes in same interface 
+
+//static method can't be inherited, because to inherit we have to override and to override , override means it depends on object which static method dont need object to be called hence we can't inherit static method.That is why static interface method should have body.
+//Since there is no object static method are called by the name of the class.
+
