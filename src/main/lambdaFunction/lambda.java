@@ -9,7 +9,8 @@ public class lambda {
         }
 
         arr.forEach((item)->{
-            System.out.println(item*3+" ");
+            System.out.print(item*3+" ");
+            System.out.println();
         });
         //item represents every element of the arraylist.
         //item is parameter 
@@ -43,4 +44,4 @@ interface Operation{
 }
 //forEach method takes the consumer dataType
 //consumer is a datatype which has only one argument and return no result
-// 
+// we know that consumer type take one argument and return no result, but if we want to use multiple arguments we can use interface like here we use first interface Operation{ int operator(int a, int b); you can clearly see that we have taken two parameter in operator method and use it like lambda function:Operator sum = (a,b)->a+b; } then to use it we created object lambda myCalc = new lambda(); System.out.println( myCalc.operate(10,5,sum));
