@@ -16,6 +16,8 @@ public class Student implements Comparable<Student> {
     @Override
     public int compareTo(Student other) {
         int diff = (int)(this.marks - other.marks);
+        // int diff = -(int)(this.marks - other.marks);
+        //if we use this version we will get the list in descending order
         return diff;
     }
 }
