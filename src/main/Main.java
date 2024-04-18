@@ -194,4 +194,15 @@ public class Main{
     //Abstraction is the process of gaining the information
 
 
-    //packages 
+    //packages
+    //There are two types of Packages: User-define and In-built packages.
+    //In-Built packages: java.lang, java.util, java.io, java.sql, java.awt, java.text
+    //java.lang is language specific package , it is automatically installed
+    //java.util is package contains collection framework and data-struture 
+    //java.io is package contains input and output stream
+    //java.sql is package contains jdbc driver
+    //java.awt is package contains all the awt classes
+    //java.net is package contains all the network related classes
+
+    //now we talk about java Object class which is topmost class in class hierarchy
+    //look at objectdemo in Encapsulation folder.
