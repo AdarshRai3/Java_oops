@@ -2,8 +2,8 @@ package src.main;
 import static src.helper.Helper.hello;
 
 import src.main.Singleton.Singleton;
-
-public class Main {
+import src.main.properties.Encapsulation.Alpha;
+public class Main{
     public static void main(String[] args) {
         // Your code here
         //Class: A class is the named group of properties and functions. Think of it as a car blueprint, it is logical construct that we use to create instance(actulal physical structure) called as object.Class is just the blueprint , but object is something that exist in the real world . That means object occpies the space in the memory
@@ -152,8 +152,19 @@ public class Main {
     //instead of creating new onject the singleton class will create only one object and passed it as reference to the many refence variable.
     //All the 3 referene variable will point to the same object
 
+    Alpha a = new Alpha(10,459874,"Ajay");
+    int nos = a.id;
+    int noa = a.getNum();
+    //Access modifier of id is public that means that we can access it anywhere within the project.
+    //Access modifier of num is private to access it we use getter and setter function and since the getter function return int type we need to create variable of int type to access it value.
 
-    //Now we will learn about the four most important properties of object oriented programming :
+
+
+    
+}
+
+
+ //Now we will learn about the four most important properties of object oriented programming :
     //Inheritance, Encapsulation, Abstraction, and Polymorphism
     //read properties folder
     //Java doesnt support multiple inheritance since it creates ambugity in the program suppose if A(n==3) and B(n==5) then if C extends A,B and we create object (C obj = new C(n) )this will give us ambugity that from which class C inherit the n , therefore java dont support multiple inheritance.
@@ -183,7 +194,4 @@ public class Main {
     //Abstraction is the process of gaining the information
 
 
-    
-}
-
-
+    //packages 
