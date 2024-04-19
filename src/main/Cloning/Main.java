@@ -13,6 +13,7 @@ public class Main {
         s1.arr[0]=100;
         System.out.println(Arrays.toString(twin.arr));
         //Due to shallow copy we can see change in value of S1 object type reflects change in value of object type in twin object.
+        //now we using a deep copy in cloning the object in which we encounter object type during cloning we simply copy those clone object replace them with the existing one hence each object get its own uniquie copy of cloned object
 
     }
 }
