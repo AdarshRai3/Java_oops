@@ -24,7 +24,7 @@ public class InnerClasses {
 //if use the contents of the Test class without making it static , it will give error because Test is dependent on InnerClasses to use the Test class we have to create the object of the inner class first
 // we can avoid this error by making the Test class static
 // static means the class created using static keyword has its own property used, without creating the object of the outer class , but doesnt means static class cannot have it own object.  
-//static level methods can be used without creating the object of the dependent class that means they are revovled during compile time not on runtime since iit dont need any object 
+//static level methods can be used without creating the object of the dependent class that means they are revovled during compile time not on runtime since it dont need any object 
 //static variables are the property of the class not the object. 
 
 

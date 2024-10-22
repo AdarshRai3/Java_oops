@@ -54,8 +54,8 @@ public class Main{
         //    }  
         //whenever the memory get overloaded , the garbage collector run and it will destroy the objects and then finalize method will be called
 
-        //Object: It is instance of the class the obejct has 3 essentail properties: State, Identity and behaviour.Object are stored in heap memory whereas as the refernce variable are stored in the stack memory and stack is faster than heap; The variable inside the object which are outside the method are called as instance variable which are use to create the object(instance of the class).
-        //Create the onject in java we use reference varible=> Student s1 = new Student(); 
+        //Object: It is instance of the class. The object has 3 essentail properties: State, Identity and behaviour.Object are stored in heap memory whereas as the refernce variable are stored in the stack memory and stack is faster than heap; The variable inside the class which are outside the method are called as instance variable which are use to create the object(instance of the class).
+        //Create the object in java we use reference varible=> Student s1 = new Student(); 
         // The new keyword dynamically allot memory to the object at run time and returns a refence variable in this case s1 to it. Student s1 = new Student(); The left side of the code excutes at compile time whereas the right part of the code execute at runtime and that time memory location take dynamically(memory allocation take place during runtime)
         //
         // Student S1 = new Student();
@@ -135,7 +135,7 @@ public class Main{
         // public static void main (String[] args) {} in this we have to put main method as static because we can use staic method without creating an object of the class
         // A staic method() can only access static variables or method
         // A non-static data: methods() and variable cannot be access without creating or referring to an object, static method() cannot use it because it requires an instance.
-        // there is solution to this problem , it is to creacte the object and then call the non-static method viva staic method inside that object
+        // there is solution to this problem , it is to create the object and then call the non-static method viva staic method inside that object
         
          
         System.out.println(Human.gravity);
@@ -168,7 +168,7 @@ public class Main{
     //Inheritance, Encapsulation, Abstraction, and Polymorphism
     //read properties folder
     //Java doesnt support multiple inheritance since it creates ambugity in the program suppose if A(n==3) and B(n==5) then if C extends A,B and we create object (C obj = new C(n) )this will give us ambugity that from which class C inherit the n , therefore java dont support multiple inheritance.
-    // Heiricahal inheritance One parent class have may children classes
+    // Heirarcahal inheritance One parent class have may children classes
     //Hybrid Inheritance is the combination of multiple and single inheritance but as we know that java dont support multiple inheritance so we dont have Hybrid inheritance in java.
 
     //Polymorhism:Use the one thing in many forms 
@@ -205,4 +205,4 @@ public class Main{
     //java.net is package contains all the network related classes
 
     //now we talk about java Object class which is topmost class in class hierarchy
-    //look at objectdemo in Encapsulation folder.
+    //look at object demo in Encapsulation folder.

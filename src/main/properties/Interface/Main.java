@@ -51,7 +51,7 @@ public class Main implements A, B{
 
 //Interface solve the major problem of heiracrhy of class in java as in interface we have just interfaces and class in which we have to implement it there is parent class , child class and grand child class concept.
 
-//Important part two class which are totally unrelated to eaach other can implements the same interfaces.Interfaces dont care wether two classes are related or not.
+//Important part two class which are totally unrelated to each other can implements the same interfaces.Interfaces dont care weather two classes are related or not.
 
 //Interface should not be used casually in performance critical code 
 

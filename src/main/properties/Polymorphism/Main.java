@@ -45,7 +45,7 @@ public class Main {
 
 // Now the question can be asked how java know that ,so java know which method to override by dynamic method dispatch it is mechanism of java , in which call to overriden method is resolved at runtime rather than compiled time 
 
-// if you put final keyword in front of the method than you will not be able tp overrride that method means if I put final area() in shapes class , this also means that the final method is resolved at compile time hence it known as "Early Binding".
+// if you put final keyword in front of the method than you will not be able to overrride that method means if I put final area() in shapes class , this also means that the final method is resolved at compile time hence it known as "Early Binding".
 
 //final keyword can also be used to prevent inheritance as well as dynamic polymorhism , will you want to prevent the class to inherited by other class just out final in front of them.
 
