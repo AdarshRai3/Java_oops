@@ -5,4 +5,3 @@ public class Helper {
         System.err.print("Hello from the helper class");
     }
 }
-
